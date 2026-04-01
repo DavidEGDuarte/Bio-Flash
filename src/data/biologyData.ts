@@ -161,6 +161,190 @@ export const biologyData: Module[] = [
             explanation: "São três: todos têm células, unidade funcional e origem em células preexistentes."
           }
         ]
+      },
+      {
+        id: "pro-vs-eu",
+        title: "Procariontes vs Eucariontes",
+        content: "Existem dois tipos principais de células: procariontes e eucariontes. As procariontes (como as bactérias) são simples e não possuem núcleo; o DNA fica solto no citoplasma. Já as eucariontes (como as suas) são complexas, possuem um núcleo protegido por uma membrana e várias organelas. É como comparar uma barraca de acampamento (simples) com uma casa cheia de cômodos (complexa).",
+        questions: [
+          {
+            id: "q26",
+            text: "Qual é a principal diferença entre procariontes e eucariontes?",
+            options: ["O tamanho", "A presença de núcleo", "A cor", "A idade"],
+            correctIndex: 1,
+            explanation: "Eucariontes possuem núcleo definido, enquanto procariontes não."
+          },
+          {
+            id: "q27",
+            text: "Onde fica o DNA em uma célula procarionte?",
+            options: ["No núcleo", "Solto no citoplasma", "Fora da célula", "Na membrana"],
+            correctIndex: 1,
+            explanation: "Como não há núcleo, o material genético fica disperso no citoplasma."
+          },
+          {
+            id: "q28",
+            text: "As bactérias são exemplos de quais células?",
+            options: ["Eucariontes", "Procariontes", "Vírus", "Plantas"],
+            correctIndex: 1,
+            explanation: "Bactérias são os exemplos mais clássicos de organismos procariontes."
+          },
+          {
+            id: "q29",
+            text: "Qual célula é comparada a uma 'casa cheia de cômodos' no texto?",
+            options: ["Procarionte", "Eucarionte", "Bactéria", "Átomo"],
+            correctIndex: 1,
+            explanation: "As células eucariontes são complexas e organizadas em compartimentos (organelas)."
+          },
+          {
+            id: "q30",
+            text: "Células humanas são de qual tipo?",
+            options: ["Procariontes", "Eucariontes", "Invisíveis", "Simples"],
+            correctIndex: 1,
+            explanation: "Nossas células possuem núcleo e organelas complexas, sendo eucariontes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "organelles",
+    title: "Organelas Celulares",
+    description: "As pequenas fábricas dentro da célula.",
+    icon: "🏭",
+    microtexts: [
+      {
+        id: "mitochondria",
+        title: "Mitocôndrias: Energia",
+        content: "As mitocôndrias são as 'usinas de energia' da célula. Elas realizam a respiração celular, processo que transforma o açúcar dos alimentos e o oxigênio em energia (ATP) para a célula funcionar. Sem elas, você não teria força nem para piscar os olhos! Elas possuem seu próprio DNA e são encontradas em grande quantidade em células que gastam muita energia, como as dos músculos.",
+        questions: [
+          {
+            id: "q31",
+            text: "Qual é a principal função da mitocôndria?",
+            options: ["Produzir açúcar", "Produzir energia (ATP)", "Limpar a célula", "Guardar DNA"],
+            correctIndex: 1,
+            explanation: "A mitocôndria é responsável pela respiração celular, que gera energia."
+          },
+          {
+            id: "q32",
+            text: "Qual processo a mitocôndria realiza?",
+            options: ["Fotossíntese", "Respiração celular", "Digestão", "Divisão"],
+            correctIndex: 1,
+            explanation: "A respiração celular é o processo de quebra de glicose para gerar energia."
+          },
+          {
+            id: "q33",
+            text: "Onde encontramos mais mitocôndrias no corpo?",
+            options: ["Nos ossos", "Nos músculos", "No cabelo", "Nas unhas"],
+            correctIndex: 1,
+            explanation: "Células musculares exigem muita energia, por isso têm muitas mitocôndrias."
+          },
+          {
+            id: "q34",
+            text: "O que a mitocôndria usa para gerar energia?",
+            options: ["Apenas água", "Açúcar e Oxigênio", "Luz solar", "Gás carbônico"],
+            correctIndex: 1,
+            explanation: "Ela quebra a glicose (açúcar) na presença de oxigênio."
+          },
+          {
+            id: "q35",
+            text: "A mitocôndria possui DNA próprio?",
+            options: ["Não, só o núcleo tem", "Sim, ela é especial", "Apenas em plantas", "Apenas em bactérias"],
+            correctIndex: 1,
+            explanation: "Sim, mitocôndrias têm seu próprio material genético, diferente do núcleo."
+          }
+        ]
+      },
+      {
+        id: "ribosomes",
+        title: "Ribossomos: Proteínas",
+        content: "Os ribossomos são pequenas fábricas de proteínas. Eles 'leem' as instruções do DNA e montam as proteínas, que são os tijolos que constroem e reparam o nosso corpo. Eles podem estar soltos no citoplasma ou grudados no Retículo Endoplasmático Rugoso. Sem proteínas, não teríamos músculos, pele, cabelos ou enzimas para digerir a comida!",
+        questions: [
+          {
+            id: "q36",
+            text: "O que os ribossomos produzem?",
+            options: ["Gordura", "Energia", "Proteínas", "Açúcar"],
+            correctIndex: 2,
+            explanation: "A função exclusiva dos ribossomos é a síntese (produção) de proteínas."
+          },
+          {
+            id: "q37",
+            text: "A que os ribossomos são comparados no texto?",
+            options: ["Usinas", "Fábricas", "Tijolos", "Seguranças"],
+            correctIndex: 1,
+            explanation: "Eles fabricam as proteínas seguindo as ordens do DNA."
+          },
+          {
+            id: "q38",
+            text: "Onde os ribossomos podem ser encontrados?",
+            options: ["Apenas no núcleo", "No citoplasma ou no Retículo Rugoso", "Fora da célula", "Apenas nos músculos"],
+            correctIndex: 1,
+            explanation: "Eles ficam dispersos ou associados ao retículo endoplasmático."
+          },
+          {
+            id: "q39",
+            text: "Qual é a importância das proteínas para o corpo?",
+            options: ["Nenhuma", "Servem como tijolos de construção", "Servem apenas para dar cor", "São apenas gordura"],
+            correctIndex: 1,
+            explanation: "Proteínas formam a estrutura do corpo (músculos, pele, etc.)."
+          },
+          {
+            id: "q40",
+            text: "Quem dá as 'instruções' para os ribossomos trabalharem?",
+            options: ["A mitocôndria", "O DNA", "A membrana", "O açúcar"],
+            correctIndex: 1,
+            explanation: "O DNA contém o código que diz qual proteína deve ser montada."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "metabolism",
+    title: "Metabolismo Celular",
+    description: "Como as células conseguem energia.",
+    icon: "⚡",
+    microtexts: [
+      {
+        id: "photosynthesis",
+        title: "Fotossíntese",
+        content: "A fotossíntese é o processo pelo qual plantas e algas produzem seu próprio alimento. Elas usam a luz do sol, água e gás carbônico para fabricar glicose (açúcar) e liberam oxigênio no ar. Esse processo acontece dentro de organelas verdes chamadas cloroplastos. É graças à fotossíntese que temos oxigênio para respirar e a base de quase toda a comida do planeta!",
+        questions: [
+          {
+            id: "q41",
+            text: "O que a planta produz na fotossíntese?",
+            options: ["Apenas água", "Glicose (açúcar) e Oxigênio", "Gás carbônico", "Luz"],
+            correctIndex: 1,
+            explanation: "O objetivo é produzir alimento (glicose) e o oxigênio é liberado como subproduto."
+          },
+          {
+            id: "q42",
+            text: "Qual é a fonte de energia para a fotossíntese?",
+            options: ["Vento", "Luz do Sol", "Solo", "Chuva"],
+            correctIndex: 1,
+            explanation: "A energia luminosa é captada pela clorofila para iniciar o processo."
+          },
+          {
+            id: "q43",
+            text: "Em qual organela ocorre a fotossíntese?",
+            options: ["Mitocôndria", "Cloroplasto", "Ribossomo", "Núcleo"],
+            correctIndex: 1,
+            explanation: "Os cloroplastos contêm clorofila e são o local da fotossíntese."
+          },
+          {
+            id: "q44",
+            text: "Qual gás a planta retira do ar para fazer fotossíntese?",
+            options: ["Oxigênio", "Nitrogênio", "Gás carbônico", "Hélio"],
+            correctIndex: 2,
+            explanation: "As plantas absorvem o CO2 (gás carbônico) da atmosfera."
+          },
+          {
+            id: "q45",
+            text: "Por que a fotossíntese é importante para nós?",
+            options: ["Porque produz oxigênio", "Porque faz sombra", "Porque gasta água", "Porque esfria o planeta"],
+            correctIndex: 0,
+            explanation: "Ela libera o oxigênio que a maioria dos seres vivos usa para respirar."
+          }
+        ]
       }
     ]
   },
@@ -255,5 +439,148 @@ export const biologyData: Module[] = [
         ]
       }
     ]
+  },
+  {
+    id: "division",
+    title: "Divisão Celular",
+    description: "Como a vida se multiplica.",
+    icon: "➗",
+    microtexts: [
+      {
+        id: "mitosis",
+        title: "Mitose: Crescimento",
+        content: "A mitose é o tipo de divisão celular onde uma célula se divide em duas células filhas idênticas à mãe. É o processo que faz você crescer e que cicatriza um corte na sua pele. Imagine que a célula faz uma cópia exata de tudo o que tem dentro (incluindo o DNA) e depois se separa. Assim, o corpo mantém o mesmo número de cromossomos em todas as células novas.",
+        questions: [
+          {
+            id: "q46",
+            text: "Quantas células filhas são formadas na mitose?",
+            options: ["Uma", "Duas", "Quatro", "Oito"],
+            correctIndex: 1,
+            explanation: "Uma célula mãe se divide em duas células filhas na mitose."
+          },
+          {
+            id: "q47",
+            text: "As células filhas da mitose são diferentes da mãe?",
+            options: ["Sim, totalmente", "Não, são idênticas", "Apenas metade é igual", "São menores"],
+            correctIndex: 1,
+            explanation: "A mitose gera clones exatos para manter a função do tecido."
+          },
+          {
+            id: "q48",
+            text: "Para que serve a mitose no nosso corpo?",
+            options: ["Para reprodução sexual", "Para crescimento e cicatrização", "Para produzir energia", "Para digerir comida"],
+            correctIndex: 1,
+            explanation: "Ela permite o aumento do número de células e a reposição de tecidos lesados."
+          },
+          {
+            id: "q49",
+            text: "O que acontece com o DNA antes da célula se dividir?",
+            options: ["Ele some", "Ele é destruído", "Ele é duplicado (copiado)", "Ele muda de cor"],
+            correctIndex: 2,
+            explanation: "A célula precisa copiar o DNA para que cada filha receba uma cópia completa."
+          },
+          {
+            id: "q50",
+            text: "Se uma célula com 46 cromossomos faz mitose, quantos cromossomos as filhas terão?",
+            options: ["23", "46", "92", "0"],
+            correctIndex: 1,
+            explanation: "A mitose mantém o número de cromossomos constante."
+          }
+        ]
+      },
+      {
+        id: "meiosis",
+        title: "Meiose: Reprodução",
+        content: "Diferente da mitose, a meiose é uma divisão especial para criar células reprodutivas (gametas), como espermatozoides e óvulos. Nela, uma célula se divide duas vezes, gerando quatro células filhas com metade do DNA da mãe. Isso é essencial para que, na fecundação, o bebê tenha o número correto de cromossomos (metade do pai e metade da mãe). Além disso, ela mistura o DNA, criando diversidade!",
+        questions: [
+          {
+            id: "q51",
+            text: "Qual é o objetivo principal da meiose?",
+            options: ["Crescer o corpo", "Criar gametas (reprodução)", "Cicatrizar feridas", "Produzir energia"],
+            correctIndex: 1,
+            explanation: "A meiose é exclusiva para a formação de células sexuais."
+          },
+          {
+            id: "q52",
+            text: "Quantas células filhas são formadas ao final da meiose?",
+            options: ["Uma", "Duas", "Quatro", "Oito"],
+            correctIndex: 2,
+            explanation: "A meiose envolve duas divisões sucessivas, resultando em 4 células."
+          },
+          {
+            id: "q53",
+            text: "O que acontece com o número de cromossomos na meiose?",
+            options: ["Ele dobra", "Ele continua igual", "Ele cai pela metade", "Ele some"],
+            correctIndex: 2,
+            explanation: "As células filhas recebem apenas metade do material genético da célula original."
+          },
+          {
+            id: "q54",
+            text: "Por que a meiose é importante para a diversidade?",
+            options: ["Porque cria clones", "Porque mistura o DNA", "Porque é rápida", "Porque não usa DNA"],
+            correctIndex: 1,
+            explanation: "Durante a meiose ocorre a recombinação gênica, que mistura as características."
+          },
+          {
+            id: "q55",
+            text: "Quais células são formadas por meiose em humanos?",
+            options: ["Células da pele", "Neurônios", "Espermatozoides e Óvulos", "Músculos"],
+            correctIndex: 2,
+            explanation: "Gametas são as únicas células humanas produzidas por este processo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "genetics",
+    title: "Genética Básica",
+    description: "As leis da hereditariedade.",
+    icon: "🧬",
+    microtexts: [
+      {
+        id: "mendel-laws",
+        title: "As Leis de Mendel",
+        content: "Gregor Mendel, o 'pai da genética', descobriu como as características passam de pais para filhos usando ervilhas. Ele percebeu que temos 'fatores' (hoje chamados de genes) que vêm em pares. Um gene pode ser dominante (manda mais) ou recessivo (fica escondido). Por exemplo, se você tem um gene para olhos castanhos (dominante) e um para azuis (recessivo), seus olhos serão castanhos!",
+        questions: [
+          {
+            id: "q56",
+            text: "Quem é considerado o pai da genética?",
+            options: ["Darwin", "Einstein", "Mendel", "Newton"],
+            correctIndex: 2,
+            explanation: "Gregor Mendel lançou as bases da genética com seus experimentos."
+          },
+          {
+            id: "q57",
+            text: "O que Mendel usou em seus experimentos famosos?",
+            options: ["Ratos", "Ervilhas", "Flores", "Bactérias"],
+            correctIndex: 1,
+            explanation: "As ervilhas eram fáceis de cultivar e tinham características bem distintas."
+          },
+          {
+            id: "q58",
+            text: "O que acontece quando um gene é 'dominante'?",
+            options: ["Ele sempre some", "Ele expressa sua característica", "Ele é mais fraco", "Ele não faz nada"],
+            correctIndex: 1,
+            explanation: "Genes dominantes se manifestam mesmo se houver apenas uma cópia deles."
+          },
+          {
+            id: "q59",
+            text: "Como chamamos hoje os 'fatores' que Mendel descreveu?",
+            options: ["Células", "Genes", "Proteínas", "Átomos"],
+            correctIndex: 1,
+            explanation: "Genes são os segmentos de DNA que determinam nossas características."
+          },
+          {
+            id: "q60",
+            text: "Um gene recessivo só aparece se:",
+            options: ["Estiver com um dominante", "Estiver em dose dupla (par)", "Nunca aparece", "Aparece sempre"],
+            correctIndex: 1,
+            explanation: "Características recessivas só se manifestam se não houver um gene dominante presente."
+          }
+        ]
+      }
+    ]
   }
 ];
+
